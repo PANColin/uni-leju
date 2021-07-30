@@ -48,8 +48,7 @@
   background: rgba(0, 0, 0, 0.6);
 }
 .mask .wrapper.data-v-0d1bbac4 {
-  -webkit-border-radius: 40rpx;
-          border-radius: 40rpx;
+  border-radius: 40rpx;
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -89,8 +88,7 @@
   position: absolute;
   top: -80rpx;
   left: -20rpx;
-  -webkit-border-radius: 30rpx;
-          border-radius: 30rpx;
+  border-radius: 30rpx;
   overflow: hidden;
 }
 .mask .wrapper .row1 .img image.data-v-0d1bbac4 {
@@ -133,8 +131,7 @@
 }
 .mask .wrapper .row1 .close-icon.data-v-0d1bbac4 {
   background-color: #fff;
-  -webkit-border-radius: 50%;
-          border-radius: 50%;
+  border-radius: 50%;
   position: absolute;
   right: -10rpx;
   top: -20rpx;
@@ -155,13 +152,13 @@
   -webkit-justify-content: flex-start;
           justify-content: flex-start;
   height: 140rpx;
+  -webkit-overflow-scrolling: touch;
   overflow: auto;
 }
 .mask .wrapper .row2 .wrapper-sku .list.data-v-0d1bbac4 {
   width: 90%;
   background-color: #eee;
-  -webkit-border-radius: 28rpx;
-          border-radius: 28rpx;
+  border-radius: 28rpx;
   margin: 10rpx auto;
 }
 .mask .wrapper .row2 .wrapper-sku .list .item.data-v-0d1bbac4 {
@@ -220,8 +217,7 @@
   font-size: 24rpx;
   height: 68rpx;
   background-color: #eee;
-  -webkit-border-radius: 28rpx;
-          border-radius: 28rpx;
+  border-radius: 28rpx;
   margin: 10rpx auto;
 }
 .mask .wrapper .row4 .wrapper-num.data-v-0d1bbac4 {

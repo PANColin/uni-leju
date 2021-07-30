@@ -45,10 +45,10 @@ export default {
 			// isCollected: false,
 			obj: {
 				// #ifdef H5
-				img: 'width:80%;height:100%;margin:0 auto;display:block;',
+				img: 'width:90%;height:100%;margin:0 auto;display:block;',
 				// #endif
 				// #ifdef MP-WEIXIN
-				img: 'width:80%;margin:0 auto;display:block;'
+				img: 'width:90%;margin:0 auto;display:block;'
 				// #endif
 			},
 			skuList: []

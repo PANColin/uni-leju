@@ -121,7 +121,7 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   var m0 = Boolean(_vm.message.defaultStatus)
-  var m1 = !m0 ? Boolean(_vm.message.defaultStatus) : null
+  var m1 = m0 ? Boolean(_vm.message.defaultStatus) : null
   _vm.$mp.data = Object.assign(
     {},
     {
@@ -200,7 +200,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _rules = _interopRequireDefault(__webpack_require__(/*! ../../mixins/rules.js */ 69));
+var _rules = _interopRequireDefault(__webpack_require__(/*! ../../mixins/rules.js */ 70));
 var _isLogin = _interopRequireDefault(__webpack_require__(/*! ../../mixins/isLogin.js */ 52));
 var _util = __webpack_require__(/*! ../../utils/util.js */ 145);
 

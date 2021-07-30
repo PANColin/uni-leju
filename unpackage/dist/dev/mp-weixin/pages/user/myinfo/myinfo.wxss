@@ -42,8 +42,7 @@
   width: 114rpx;
   height: 114rpx;
   overflow: hidden;
-  -webkit-border-radius: 50%;
-          border-radius: 50%;
+  border-radius: 50%;
 }
 .userInfo .row1 .right image.data-v-2f3bf324 {
   width: 100%;

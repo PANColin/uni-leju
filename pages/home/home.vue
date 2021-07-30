@@ -7,7 +7,9 @@
 				<!-- #endif -->
 			</view>
 			<view class="right">
-				<navigator url="#"><uni-icons type="search" size="28" color="#fff"></uni-icons></navigator>
+				<!-- #ifdef MP-WEIXIN -->
+				<button open-type="share" plain size="mini"><uni-icons type="upload" size="28" color="#fff"></uni-icons></button>
+				<!-- #endif -->
 				<navigator url="../../minesubpkg/cart/cart" open-type="navigate"><uni-icons type="cart" size="28" color="#fff"></uni-icons></navigator>
 			</view>
 		</view>
@@ -91,6 +93,18 @@ export default {
 			saleMostProducts: []
 		};
 	},
+	onShareAppMessage(res) {
+		// console.log(res);
+		if (res.from === 'button') {
+			// 判断分享是否来自页面内分享按钮
+			console.log(res);
+			console.log(res.target);
+		}
+		// return {
+		// 	title: '不凡',
+		// 	path: path
+		// };
+	},
 	async onLoad(options) {
 		const { data: res } = await bannerAds();
 		const { data: res1 } = await findCategory('1308336521604599809');
@@ -134,6 +148,12 @@ export default {
 		right: 10rpx;
 		display: flex;
 		justify-content: flex-end;
+		button {
+			margin-top: -40rpx;
+			border: none;
+			width: fit-content;
+			height: fit-content;
+		}
 	}
 }
 .top {

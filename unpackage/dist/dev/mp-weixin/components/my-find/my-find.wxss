@@ -53,8 +53,7 @@
   height: 462rpx;
   margin: 0 auto;
   background-color: #fff;
-  -webkit-border-radius: 32rpx;
-          border-radius: 32rpx;
+  border-radius: 32rpx;
   padding: 0 40rpx;
   margin-top: 20rpx;
 }

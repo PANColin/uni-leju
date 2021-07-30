@@ -192,16 +192,16 @@ var _vuex = __webpack_require__(/*! vuex */ 12);function _interopRequireDefault(
       orderId: '' };
 
   },
-  onLoad: function onLoad(options) {var _this = this;return _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee() {return _regenerator.default.wrap(function _callee$(_context) {while (1) {switch (_context.prev = _context.next) {case 0:
+  onLoad: function onLoad(options) {var _this = this;return _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee() {var _yield$findAllAddress, res;return _regenerator.default.wrap(function _callee$(_context) {while (1) {switch (_context.prev = _context.next) {case 0:
               _this.isFromUser = options.isFromUser;
               _this.orderId = options.orderId;
               // console.log(formatTime(new Date()));
-              if (!_this.isLogin('/minesubpkg/address/address')) {_context.next = 7;break;}if (
+              if (!_this.isLogin('/minesubpkg/address/address')) {_context.next = 11;break;}_context.next = 5;return (
+                (0, _index.findAllAddress)());case 5:_yield$findAllAddress = _context.sent;res = _yield$findAllAddress.data;if (
 
-
-              res.success) {_context.next = 5;break;}return _context.abrupt("return", uni.$showMsg());case 5:
+              res.success) {_context.next = 9;break;}return _context.abrupt("return", uni.$showMsg());case 9:
               _this.addressList = res.data.items;
-              uni.setStorageSync('appAddressList', JSON.stringify(res.data.items));case 7:case "end":return _context.stop();}}}, _callee);}))();
+              uni.setStorageSync('appAddressList', JSON.stringify(res.data.items));case 11:case "end":return _context.stop();}}}, _callee);}))();
 
   },
   methods: _objectSpread(_objectSpread({},

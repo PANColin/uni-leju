@@ -162,13 +162,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 //
 //
 //
-var _default =
+var _default2 =
 {
   name: 'my-goods',
   props: {
     list: {
       type: Array,
-      default: [] },
+      default: function _default() {
+        return [];
+      } },
 
     showTabs: {
       type: Boolean,
@@ -208,7 +210,7 @@ var _default =
         val.isDesc = 1;
         this.$emit('tabsClick', { isDesc: val.isDesc, sortBy: val.sortBy });
       }
-    } } };exports.default = _default;
+    } } };exports.default = _default2;
 
 /***/ }),
 

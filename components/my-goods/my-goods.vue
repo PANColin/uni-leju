@@ -15,7 +15,7 @@
 					<view class="img"><image :src="item.pic" mode="widthFix"></image></view>
 					<view class="txt">
 						<text class="name">{{ item.name }}</text>
-						<text class="price">价格:{{ item.price }}</text>
+						<text class="price">价格:{{ item.price }}元</text>
 					</view>
 				</navigator>
 			</view>
@@ -29,7 +29,9 @@ export default {
 	props: {
 		list: {
 			type: Array,
-			default: []
+			default() {
+				return [];
+			}
 		},
 		showTabs: {
 			type: Boolean,

@@ -1,7 +1,7 @@
 <template>
 	<view>
 		<view class="goods-nav"><uni-goods-nav :fill="true" :options="options" :buttonGroup="buttonGroup" @click="onClick" @buttonClick="buttonClick" /></view>
-		<view class="mask" v-if="isMaskShow" @touchmove.stop.prevent="true">
+		<view class="mask" v-if="isMaskShow" @touchmove.stop.prevent>
 			<view class="wrapper">
 				<view class="row1">
 					<view class="img"><image :src="skuList[currentIndex].pic" mode="widthFix"></image></view>
@@ -13,7 +13,7 @@
 				</view>
 				<view class="row2">
 					<view class="title">商品选择</view>
-					<view class="wrapper-sku">
+					<scroll-view class="wrapper-sku" scroll-y="true">
 						<view class="list" :class="index == currentIndex ? 'active' : ''" v-for="(item, index) in skuList" :key="item.id" @click="listClick(item, index)">
 							<view class="item">
 								<view v-for="(item1, index) in item.spData" :key="index">
@@ -21,7 +21,7 @@
 								</view>
 							</view>
 						</view>
-					</view>
+					</scroll-view>
 				</view>
 				<view class="row3">
 					<view class="title">商品选择</view>
@@ -105,7 +105,7 @@ export default {
 	methods: {
 		// skuList 点击事件
 		listClick(val, index) {
-			console.log(val);
+			// console.log(val);
 			// this.currentSkulist = val;
 			this.currentIndex = index;
 		},
@@ -267,6 +267,7 @@ export default {
 				align-items: center;
 				justify-content: flex-start;
 				height: 140rpx;
+				-webkit-overflow-scrolling: touch;
 				overflow: auto;
 				.list {
 					width: 90%;

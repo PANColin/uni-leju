@@ -52,8 +52,7 @@
 .wrapper .choosePayWay image.data-v-65fcdc1b {
   width: 68rpx;
   height: 68rpx;
-  -webkit-border-radius: 50%;
-          border-radius: 50%;
+  border-radius: 50%;
 }
 .wrapper .choosePayWay .row1.data-v-65fcdc1b,
 .wrapper .choosePayWay .row2.data-v-65fcdc1b {

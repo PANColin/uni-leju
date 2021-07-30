@@ -70,10 +70,8 @@
   border-width: 1rpx;
   border-style: solid;
   border-color: #e5e5e5;
-  -webkit-border-top-left-radius: 3px;
-          border-top-left-radius: 3px;
-  -webkit-border-bottom-left-radius: 3px;
-          border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
   border-right-width: 0;
 }
 .uni-numbox__plus.data-v-dd94a2a8 {
@@ -95,10 +93,8 @@
   border-width: 1rpx;
   border-style: solid;
   border-color: #e5e5e5;
-  -webkit-border-top-right-radius: 3px;
-          border-top-right-radius: 3px;
-  -webkit-border-bottom-right-radius: 3px;
-          border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
   background-color: #f8f8f8;
   border-left-width: 0;
 }

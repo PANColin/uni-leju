@@ -1,5 +1,5 @@
 .order.data-v-e0bf2774,
-.return_good.data-v-e0bf2774{width:95%;margin:40rpx auto;background-color:#fff;-webkit-border-radius:40rpx;border-radius:40rpx}.order .top.data-v-e0bf2774,
+.return_good.data-v-e0bf2774{width:95%;margin:40rpx auto;background-color:#fff;border-radius:40rpx}.order .top.data-v-e0bf2774,
 .return_good .top.data-v-e0bf2774{font-family:fantasy;font-size:24rpx;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-justify-content:space-around;justify-content:space-around;-webkit-box-align:center;-webkit-align-items:center;align-items:center;padding:30rpx;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}.order .btm.data-v-e0bf2774,
 .return_good .btm.data-v-e0bf2774{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:end;-webkit-align-items:flex-end;align-items:flex-end;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-webkit-justify-content:center;justify-content:center;font-family:fantasy;padding:30rpx}.order .btm .title.data-v-e0bf2774,
 .return_good .btm .title.data-v-e0bf2774{color:#e00}.order .btm .button-wrapper.data-v-e0bf2774,

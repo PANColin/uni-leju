@@ -34,8 +34,7 @@
   margin: 20rpx auto;
   padding: 40rpx;
   background-color: #fff;
-  -webkit-border-radius: 22rpx;
-          border-radius: 22rpx;
+  border-radius: 22rpx;
   -webkit-box-shadow: 2px 3px 20px #999;
           box-shadow: 2px 3px 20px #999;
 }
@@ -57,8 +56,7 @@
   width: 144rpx;
   height: 144rpx;
   background-color: #999;
-  -webkit-border-radius: 50%;
-          border-radius: 50%;
+  border-radius: 50%;
   overflow: hidden;
 }
 .wrapper .top .row1 .not-login image.data-v-80842834 {

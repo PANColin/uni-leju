@@ -1,5 +1,5 @@
 <template>
-	<view>
+	<view class="wrapper">
 		<view class="category">
 			<navigator
 				open-type="navigate"
@@ -41,81 +41,91 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.category {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+.wrapper {
+	width: 100%;
+	height: 100%;
+	// display: flex;
+	// align-items: center;
+	// justify-content: center;
+	.category {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
 
-	// flex-direction: column;
+		// flex-direction: column;
 
-	.item0,
-	.item1 {
-		border-radius: 12rpx;
-		margin: 20rpx 20rpx;
-		position: relative;
-		// background-color: #bfa;
-		width: 642rpx;
-		height: 282rpx;
-		.img0 {
-			position: absolute;
-			right: 0;
-			width: 50% !important;
-			height: 100% !important;
+		.item0,
+		.item1 {
+			border-radius: 12rpx;
+			margin: 20rpx 20rpx;
+			position: relative;
+			// background-color: #bfa;
+			width: 642rpx;
+			height: 282rpx;
+			.img0 {
+				position: absolute;
+				right: 0;
+				width: 50% !important;
+				height: 100% !important;
+			}
+			.img1 {
+				position: absolute;
+				right: 0;
+				width: 50% !important;
+				height: 100% !important;
+			}
+			.name {
+				position: absolute;
+				left: 40rpx;
+				bottom: 60rpx;
+				font-size: 46rpx;
+				color: #3e3e3e;
+			}
 		}
-		.img1 {
-			position: absolute;
-			right: 0;
-			width: 50% !important;
-			height: 100% !important;
+		.item0 {
+			background: #d5d5d5;
+			box-shadow: 0 12px 20px 0 #d5d5d5;
 		}
-		.name {
-			position: absolute;
-			left: 40rpx;
-			bottom: 60rpx;
-			font-size: 46rpx;
-			color: #3e3e3e;
+		.item1 {
+			background: #fff;
+			box-shadow: 0 12px 20px 0 #d5d5d5;
 		}
-	}
-	.item0 {
-		background: #d5d5d5;
-		box-shadow: 0 12px 20px 0 #d5d5d5;
-	}
-	.item1 {
-		background: #fff;
-		box-shadow: 0 12px 20px 0 #d5d5d5;
-	}
-	.item2,
-	.item3 {
-		border-radius: 12rpx;
-		margin: 20rpx 20rpx;
-		box-shadow: 15px 2px 5px 0 #d5d5d5;
-		.img2 {
-			width: 298rpx !important;
-			height: 424rpx !important;
+		.item2,
+		.item3 {
+			border-radius: 12rpx;
+			margin: 20rpx 20rpx;
+			box-shadow: 15px 2px 5px 0 #d5d5d5;
+			.img2 {
+				width: 298rpx !important;
+				height: 424rpx !important;
+			}
+			.img3 {
+				width: 298rpx !important;
+				height: 424rpx !important;
+			}
 		}
-		.img3 {
-			width: 298rpx !important;
-			height: 424rpx !important;
+		.item2 {
+			background-color: #fff;
+			.name {
+				position: absolute;
+				left: 100rpx;
+				bottom: 200rpx;
+				font-size: 46rpx;
+				color: #3e3e3e;
+			}
 		}
-	}
-	.item2 {
-		background-color: #fff;
-		.name {
-			position: absolute;
-			left: 100rpx;
-			bottom: 200rpx;
-			font-size: 46rpx;
-			color: #3e3e3e;
-		}
-	}
-	.item3 {
-		background-color: #d5d5d5;
-		.name {
-			position: absolute;
-			right: 100rpx;
-			bottom: 200rpx;
-			font-size: 46rpx;
-			color: #3e3e3e;
+		.item3 {
+			background-color: #d5d5d5;
+			.name {
+				position: absolute;
+				right: 100rpx;
+				bottom: 200rpx;
+				font-size: 46rpx;
+				color: #3e3e3e;
+			}
 		}
 	}
 }

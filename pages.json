@@ -51,14 +51,14 @@
 	}, {
 		"path": "pages/user/myinfo/myinfo",
 		"style": {
-			"navigationBarTitleText": "",
+			"navigationBarTitleText": "个人信息",
 			"enablePullDownRefresh": false
 		}
 
 	}, {
 		"path": "pages/user/register/register",
 		"style": {
-			"navigationBarTitleText": "",
+			"navigationBarTitleText": "注册",
 			"enablePullDownRefresh": false
 		}
 
@@ -75,7 +75,7 @@
 			}, {
 				"path": "goodsDetail/goodsDetail",
 				"style": {
-					"navigationBarTitleText": "",
+					"navigationBarTitleText": "商品详情",
 					"enablePullDownRefresh": false
 				}
 
@@ -89,7 +89,7 @@
 			}, {
 				"path": "goodsCollected/goodsCollected",
 				"style": {
-					"navigationBarTitleText": "",
+					"navigationBarTitleText": "商品收藏",
 					"enablePullDownRefresh": false
 				}
 
@@ -107,14 +107,14 @@
 			}, {
 				"path": "order/order",
 				"style": {
-					"navigationBarTitleText": "",
+					"navigationBarTitleText": "订单",
 					"enablePullDownRefresh": false
 				}
 
 			}, {
 				"path": "address/address",
 				"style": {
-					"navigationBarTitleText": "",
+					"navigationBarTitleText": "地址",
 					"enablePullDownRefresh": false
 				}
 
@@ -135,29 +135,25 @@
 			}, {
 				"path": "payment/payment",
 				"style": {
-					"navigationBarTitleText": "",
+					"navigationBarTitleText": "支付",
 					"enablePullDownRefresh": false
 				}
 
-			}    ,{
-                    "path" : "orderBack/orderBack",
-                    "style" :                                                                                    
-                {
-                    "navigationBarTitleText": "",
-                    "enablePullDownRefresh": false
-                }
-                
-                }
-                ,{
-                    "path" : "findCollected/findCollected",
-                    "style" :                                                                                    
-                {
-                    "navigationBarTitleText": "",
-                    "enablePullDownRefresh": false
-                }
-                
-                }
-            ]
+			}, {
+				"path": "orderBack/orderBack",
+				"style": {
+					"navigationBarTitleText": "反馈",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "findCollected/findCollected",
+				"style": {
+					"navigationBarTitleText": "文章收藏",
+					"enablePullDownRefresh": false
+				}
+
+			}]
 		}
 	],
 	"tabBar": {

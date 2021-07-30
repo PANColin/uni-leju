@@ -28,8 +28,7 @@
   background-color: #fff;
   width: 650rpx;
   margin: 40rpx auto;
-  -webkit-border-radius: 32rpx;
-          border-radius: 32rpx;
+  border-radius: 32rpx;
   padding: 40rpx;
   -webkit-box-shadow: 2px 6px 20px #999;
           box-shadow: 2px 6px 20px #999;

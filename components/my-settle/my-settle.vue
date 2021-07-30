@@ -66,9 +66,9 @@ export default {
 			const orderInfo = {
 				orderItemList: this.cart.filter(x => x.goods_state).map(x => ({ cartId: x.id, productId: x.productId, productQuantity: x.quantity, productSkuId: x.productSkuId }))
 			};
-			console.log(orderInfo,'=========================');
+			// console.log(orderInfo,'=========================');
 			const { data: res } = await addPreOrder(orderInfo);
-			console.log(res);
+			// console.log(res);
 			if (!res.success) return uni.$showMsg({ title: '订单生产失败' });
 			uni.redirectTo({
 				url: '../../minesubpkg/order/order?orderId=' + res.data.orderId

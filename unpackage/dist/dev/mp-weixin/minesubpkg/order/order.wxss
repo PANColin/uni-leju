@@ -45,8 +45,7 @@
   width: 95%;
   margin: 0 auto;
   background-color: #fff;
-  -webkit-border-radius: 40rpx;
-          border-radius: 40rpx;
+  border-radius: 40rpx;
 }
 .order .top.data-v-2c640d6b {
   font-family: fantasy;

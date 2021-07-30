@@ -64,6 +64,14 @@
   -webkit-justify-content: flex-end;
           justify-content: flex-end;
 }
+.icons .right button.data-v-92bb8f34 {
+  margin-top: -40rpx;
+  border: none;
+  width: -webkit-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: fit-content;
+}
 .top swiper.data-v-92bb8f34 {
   height: 330rpx;
 }
@@ -96,8 +104,7 @@
   margin-bottom: 20rpx;
   width: 120rpx !important;
   height: 120rpx !important;
-  -webkit-border-radius: 50%;
-          border-radius: 50%;
+  border-radius: 50%;
 }
 .xianshi.data-v-92bb8f34 {
   padding: 20rpx;
@@ -229,8 +236,7 @@
           align-items: center;
   background-color: #fff;
   margin-right: 20rpx;
-  -webkit-border-radius: 16px;
-          border-radius: 16px;
+  border-radius: 16px;
 }
 .xinpin .wrapper .item navigator .img.data-v-92bb8f34 {
   display: -webkit-box;

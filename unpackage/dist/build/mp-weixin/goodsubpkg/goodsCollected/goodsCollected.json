@@ -1,5 +1,5 @@
 {
-  "navigationBarTitleText": "",
+  "navigationBarTitleText": "商品收藏",
   "enablePullDownRefresh": false,
   "usingComponents": {
     "my-good": "/components/my-good/my-good"

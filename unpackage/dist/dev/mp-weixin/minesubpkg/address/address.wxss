@@ -83,6 +83,7 @@
   bottom: 0;
 }
 .wrapper .btm button.data-v-15a8d812 {
+  margin-bottom: 40rpx;
   width: 60%;
   color: #fff;
   background-color: #354e44;

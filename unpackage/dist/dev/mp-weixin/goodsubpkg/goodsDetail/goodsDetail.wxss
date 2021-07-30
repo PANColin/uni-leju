@@ -40,8 +40,7 @@
   -webkit-box-pack: center;
   -webkit-justify-content: center;
           justify-content: center;
-  -webkit-border-radius: 50%;
-          border-radius: 50%;
+  border-radius: 50%;
   width: 96rpx;
   height: 96rpx;
   background-color: #354e44;
@@ -90,8 +89,7 @@
   height: 34rpx;
   font-size: 24rpx;
   padding: 10rpx;
-  -webkit-border-radius: 12rpx;
-          border-radius: 12rpx;
+  border-radius: 12rpx;
 }
 .wrapper .dec .row2.data-v-565f9c87 {
   padding: 20rpx 6rpx;

@@ -1,5 +1,5 @@
 {
-  "navigationBarTitleText": "",
+  "navigationBarTitleText": "文章收藏",
   "enablePullDownRefresh": false,
   "usingComponents": {
     "my-find": "/components/my-find/my-find"

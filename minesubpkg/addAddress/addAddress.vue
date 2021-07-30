@@ -13,7 +13,7 @@
 				</view>
 				<view class="uni-form-item uni-column">
 					<text class="title">所在地区</text>
-					<input class="uni-input" type="default" name="cityValueDefault" :value="cityValueDefault" placeholder="请选择地址" @focus="selected" />
+					<input class="uni-input" type="default" name="cityValueDefault" disabled="true" :value="cityValueDefault" placeholder="请选择地址" @click="selected" />
 				</view>
 				<view class="uni-form-item uni-column">
 					<text class="title">详细地址</text>
@@ -21,7 +21,7 @@
 				</view>
 				<view class="uni-form-item uni-column">
 					<text class="title">设置默认地址</text>
-					<switch name="defaultStatus" :checked="!Boolean(message.defaultStatus) ? Boolean(message.defaultStatus) : ''" @change="defaultChange" />
+					<switch name="defaultStatus" :checked="Boolean(message.defaultStatus) ? Boolean(message.defaultStatus) : ''" @change="defaultChange" />
 				</view>
 				<view class="uni-btn-v">
 					<button v-if="message.id" type="warn" @click="delAddress">删除收货地址</button>

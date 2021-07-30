@@ -39,7 +39,7 @@ export default {
 		this.orderId = options.orderId;
 		// console.log(formatTime(new Date()));
 		if (this.isLogin('/minesubpkg/address/address')) {
-			// const { data: res } = await findAllAddress();
+			const { data: res } = await findAllAddress();
 			// console.log(res);
 			if (!res.success) return uni.$showMsg();
 			this.addressList = res.data.items;
@@ -103,6 +103,7 @@ export default {
 		width: 100%;
 		bottom: 0;
 		button {
+			margin-bottom: 40rpx;
 			width: 60%;
 			color: #fff;
 			background-color: $navigateBackgroundColor;

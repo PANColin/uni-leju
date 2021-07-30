@@ -39,8 +39,7 @@
 .top .img-wrapper.data-v-1baf0d84 {
   width: 154rpx;
   height: 154rpx;
-  -webkit-border-radius: 50%;
-          border-radius: 50%;
+  border-radius: 50%;
   overflow: hidden;
   -webkit-box-shadow: 4rpx 4rpx 20rpx #232323;
           box-shadow: 4rpx 4rpx 20rpx #232323;
@@ -60,8 +59,7 @@
   width: 80%;
   height: 44rpx;
   margin: 80rpx auto;
-  -webkit-border-radius: 40rpx;
-          border-radius: 40rpx;
+  border-radius: 40rpx;
   -webkit-box-shadow: 2rpx 2rpx 18rpx #3b3b3b;
           box-shadow: 2rpx 2rpx 18rpx #3b3b3b;
 }
@@ -83,8 +81,7 @@
   width: 80%;
   height: 44rpx;
   margin: 80rpx auto;
-  -webkit-border-radius: 40rpx;
-          border-radius: 40rpx;
+  border-radius: 40rpx;
   -webkit-box-shadow: 2rpx 2rpx 18rpx #3b3b3b;
           box-shadow: 2rpx 2rpx 18rpx #3b3b3b;
 }
@@ -106,8 +103,7 @@
   background-color: #354e44;
   width: 80%;
   margin: 0 auto;
-  -webkit-border-radius: 36rpx;
-          border-radius: 36rpx;
+  border-radius: 36rpx;
 }
 .ipt .uni-btn-v .reset.data-v-1baf0d84 {
   margin-top: 30rpx;

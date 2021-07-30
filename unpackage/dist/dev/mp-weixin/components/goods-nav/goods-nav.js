@@ -112,12 +112,6 @@ var render = function() {
   var _c = _vm._self._c || _h
   if (!_vm._isMounted) {
     _vm.e0 = function($event) {
-      $event.stopPropagation()
-      $event.preventDefault()
-      return true($event)
-    }
-
-    _vm.e1 = function($event) {
       _vm.isMaskShow = false
     }
   }
@@ -261,7 +255,7 @@ var _isLogin = _interopRequireDefault(__webpack_require__(/*! @/mixins/isLogin.j
   methods: {
     // skuList 点击事件
     listClick: function listClick(val, index) {
-      console.log(val);
+      // console.log(val);
       // this.currentSkulist = val;
       this.currentIndex = index;
     },
