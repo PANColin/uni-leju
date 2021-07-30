@@ -1,0 +1,1 @@
+{"version":3,"sources":["uni-app:///main.js"],"names":["createPage","Page"],"mappings":";;;;;;;;;;kDAAA;AACA;AACA,iH;AACAA,UAAU,CAACC,mBAAD,CAAV,C","file":"minesubpkg/confirmPay/confirmPay.js","sourcesContent":["import 'uni-pages';\nimport Vue from 'vue'\nimport Page from './minesubpkg/confirmPay/confirmPay.vue'\ncreatePage(Page)"],"sourceRoot":""}

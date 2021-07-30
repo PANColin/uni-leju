@@ -1,0 +1,114 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "分类",
+          "pathName": "pages/kind/kind",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "商品详情",
+          "pathName": "goodsubpkg/goodsDetail/goodsDetail",
+          "query": "productId=1328958351405580290",
+          "scene": null
+        },
+        {
+          "name": "发现页面",
+          "pathName": "pages/find/find",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "文章详情",
+          "pathName": "goodsubpkg/detailAB/detailAB",
+          "query": "id=1418173186667790338",
+          "scene": null
+        },
+        {
+          "name": "我的页面",
+          "pathName": "pages/user/user",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "登录",
+          "pathName": "pages/user/login/login",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "用户信息",
+          "pathName": "pages/user/myinfo/myinfo",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "购物车",
+          "pathName": "minesubpkg/cart/cart",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "地址管理",
+          "pathName": "minesubpkg/address/address",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "修改/新增地址",
+          "pathName": "minesubpkg/addAddress/addAddress",
+          "query": "addressId=1419935099634401282",
+          "scene": null
+        },
+        {
+          "name": "用户注册",
+          "pathName": "pages/user/register/register",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "订单",
+          "pathName": "minesubpkg/order/order",
+          "query": "orderId=1420264369221091330",
+          "scene": null
+        },
+        {
+          "name": "分类详情",
+          "pathName": "goodsubpkg/goodsList/goodsList",
+          "query": "categoryId=1308339256886423554",
+          "scene": null
+        },
+        {
+          "name": "支付页面",
+          "pathName": "minesubpkg/payment/payment",
+          "query": "orderId=1420630599450836994",
+          "scene": null
+        },
+        {
+          "name": "退单页面",
+          "pathName": "minesubpkg/orderBack/orderBack",
+          "query": "orderId=1420673572033085441&skuId=1328958351451717633",
+          "scene": null
+        },
+        {
+          "name": "文章收藏",
+          "pathName": "minesubpkg/findCollected/findCollected",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

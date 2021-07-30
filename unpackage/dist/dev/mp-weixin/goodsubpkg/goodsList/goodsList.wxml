@@ -1,0 +1,1 @@
+<view class="data-v-dc54363e"><my-goods vue-id="ae318f76-1" list="{{ProductList}}" showTabs="{{true}}" data-event-opts="{{[['^tabsClick',[['handleTabsClick']]]]}}" bind:tabsClick="__e" class="data-v-dc54363e" bind:__l="__l"></my-goods></view>

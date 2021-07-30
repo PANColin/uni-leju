@@ -1,0 +1,1 @@
+<view class="data-v-4b45cfd1"><block wx:for="{{collectList}}" wx:for-item="item" wx:for-index="__i0__" wx:key="id"><block class="data-v-4b45cfd1"><my-good vue-id="{{'7e015a4f-1-'+__i0__}}" goods="{{item}}" class="data-v-4b45cfd1" bind:__l="__l"></my-good></block></block></view>

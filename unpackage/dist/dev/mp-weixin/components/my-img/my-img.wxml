@@ -1,0 +1,1 @@
+<view class="up_img_wrap data-v-54b66604"><image src="{{src}}" class="data-v-54b66604"></image><uni-icons class="icon data-v-54b66604" vue-id="4216db82-1" type="minus" size="23" color="#b00" bind:__l="__l"></uni-icons></view>
