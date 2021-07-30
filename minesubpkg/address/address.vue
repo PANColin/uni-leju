@@ -37,6 +37,7 @@ export default {
 	async onLoad(options) {
 		this.isFromUser = options.isFromUser;
 		this.orderId = options.orderId;
+		console.log(this.orderId);
 		// console.log(formatTime(new Date()));
 		if (this.isLogin('/minesubpkg/address/address')) {
 			const { data: res } = await findAllAddress();

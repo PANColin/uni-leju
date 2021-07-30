@@ -3,7 +3,7 @@
 	<view v-if="orderBase.orderSn">
 		<view class="wait-pay">等待支付</view>
 		<navigator :url="'../address/address?orderId=' + orderBase.id" class="chooseAddress" v-if="!address.id">选择地址</navigator>
-		<navigator url="../address/address" class="chooseAddress" v-else>
+		<navigator :url="'../address/address?orderId=' + orderBase.id" class="chooseAddress" v-else>
 			<view class="row1">
 				<text>姓名:{{ address.name }}</text>
 				<text>电话:{{ address.phoneNumber }}</text>
