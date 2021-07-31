@@ -1,0 +1,1 @@
+<view class="data-v-72f20885"><my-find vue-id="408c7cf0-1" list="{{dList}}" isWho="{{guess}}" data-event-opts="{{[['^tabsClick',[['handleTabsClick']]]]}}" bind:tabsClick="__e" class="data-v-72f20885" bind:__l="__l"></my-find></view>

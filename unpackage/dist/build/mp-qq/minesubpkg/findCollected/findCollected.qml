@@ -1,0 +1,1 @@
+<view><my-find vue-id="29569db9-1" list="{{collectList}}" isShowTabs="{{false}}" bind:__l="__l"></my-find></view>

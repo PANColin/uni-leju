@@ -1,0 +1,1 @@
+<view class="data-v-4b45cfd1"><block qq:for="{{collectList}}" qq:for-item="item" qq:for-index="__i0__" qq:key="id"><block class="data-v-4b45cfd1"><my-good vue-id="{{'296b743e-1-'+__i0__}}" goods="{{item}}" class="data-v-4b45cfd1" bind:__l="__l"></my-good></block></block></view>

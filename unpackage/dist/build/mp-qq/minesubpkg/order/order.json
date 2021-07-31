@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "订单",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "my-good": "/components/my-good/my-good"
+  }
+}
