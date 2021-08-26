@@ -43,7 +43,8 @@
 							</block>
 						</text>
 						<block v-if="current == 2">
-							<view class="return_good" @click.stop="returnGood"><text>退货</text></view>
+							<view v-if="goods.isReturn !== 1" class="return_good" @click.stop="returnGood"><text>退货</text></view>
+							<view v-else class="return_good"><text style="text-decoration: none;color: #f00;">退货中</text></view>
 						</block>
 					</view>
 				</view>
@@ -59,6 +60,7 @@ export default {
 	// 定义 props 属性，用来接收外界传递到当前组件的数据
 	created() {
 		this.isProductAttr = this.goods.productAttr instanceof Array;
+		console.log(this.goods);
 	},
 	props: {
 		// 商品的信息对象
