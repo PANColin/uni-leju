@@ -39,7 +39,7 @@ export default {
 		top: 0;
 		//uni-page-head高度
 		/* #ifdef H5 */
-		top: 88rpx;
+		top: 44px;
 		/* #endif */
 		z-index: 999;
 		display: flex;
